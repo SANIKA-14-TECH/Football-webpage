@@ -1,0 +1,117 @@
+:root{
+    --primary : #ff0000
+    --secondary : #222
+    --light : #ffffff
+    --maroonColor : #b53232
+}
+.customing{
+    height: auto;
+    width: 200px;
+    top: -51.68px;
+    left: -57.59px;
+    rotate: -56;
+    background-size: cover
+}
+header{
+    height: 500px;
+    width: 100%;
+    background-image: url(Assets/header.png);
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* HERO TITLE */
+
+.hero-title{
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 1.1;
+}
+
+.hero-title span{
+    color: #e63946;
+}
+.navbar-brand{
+    color: rgb(163, 162, 162);
+    width: 190px;
+    height: 27px;
+    top: 72px;
+    left: 183px;
+    font-family: gugi;
+    font-weight: 400;
+    font-style: regular;
+    text-transform: uppercase;
+    line-height: 90%;
+
+}
+.collapse{
+    color: rgb(163, 162, 162);
+}
+.sk-white-color{
+    color: var(--light);
+    text-decoration: none;
+}
+.sk-heading{
+    color: var(--primary);
+}
+.customimg{
+    height: 410px;
+    width: 400px;
+}
+.player-section{
+  background:#c62828;
+  /* height:400px; */
+
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 100%,
+    0 85%
+  );
+}
+
+.customicon{
+ font-size: 3rem;
+}
+
+
+body{
+  overflow-x: hidden;
+  background-color: rgb(203, 202, 202);
+}
+
+
+.customImage{
+ height: 400px;
+ width: 400px;
+}
+
+/* .ballIMage{
+  height: 200px;
+  width: 200px;
+} */
+.ballSection{
+  position: relative;
+  /* background: #e9ecef; light background */
+  overflow: hidden;
+}
+
+.ballSection::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 70%;
+  height: 400px;
+  background: #9fb0a3; /* green triangle */
+  clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
+}
+
+.ballIMage{
+  width: 220px;
+  position: relative;
+  z-index: 2;
+}
